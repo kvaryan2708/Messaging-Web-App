@@ -8,7 +8,13 @@ const jwt = require('jsonwebtoken');
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+	{
+		origin: ["https://messaging-web-app-zmap.vercel.app"],
+		methods:["POST","GET"],
+		credentials:true
+	}
+));
 
 mongoose.connect('mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/?retryWrites=true&w=majority', {
 	useNewUrlParser: true, 

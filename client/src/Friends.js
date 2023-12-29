@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-const api_base="https://messaging-web-jrff3bhw5-kvaryan2708s-projects.vercel.app"
+const api_base="https://messaging-web-app.vercel.app"
 function Friends({ byValue }) {
   const [msgArr, setMsgArr] = useState([]);
   const [re, setRe] = useState("");
