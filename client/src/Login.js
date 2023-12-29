@@ -18,7 +18,9 @@ function Login({toggleValue,helper,naming,imaging}) {
          id:id,
          
          password: password
-       })
+       }),
+	     
+	      credentials: 'include',
      });
      const result = await data.json();
 
