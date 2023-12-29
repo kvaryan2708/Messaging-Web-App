@@ -1,6 +1,11 @@
 {
     "version": 2,
     "routes": [
+
+         {
+        "src": "/",
+        "dest": "/server.js"
+      },
       {
         "src": "/api/msg/:name",
         "dest": "/server.js"
