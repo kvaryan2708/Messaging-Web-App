@@ -8,9 +8,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 
 app.use(express.json());
-app.use(cors(
-	
-));
+
 
 mongoose.connect('mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/?retryWrites=true&w=majority', {
 	useNewUrlParser: true, 
