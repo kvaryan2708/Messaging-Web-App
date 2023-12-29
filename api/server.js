@@ -27,6 +27,11 @@ const Request=require('./models/Request')
 const Friends=require('./models/Friends')
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
+app.get('/', async (req, res) => {
+	
+
+	res.json("Hello World");
+});
 
 app.get('/msg/:name', async (req, res) => {
 	const name=req.params.name;
