@@ -204,4 +204,3 @@ app.post('/profile/new', upload.single('image'), async(req,res) => {
 	  res.status(500).json({ message: 'Internal Server Error' });
 	}
 })
-app.listen(3001);
