@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 
-mongoose.connect('mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/test?retryWrites=true&w=majority', {
 	useNewUrlParser: true, 
 	useUnifiedTopology: true 
 }).then(() => console.log("Connected to MongoDB")).catch(console.error);
