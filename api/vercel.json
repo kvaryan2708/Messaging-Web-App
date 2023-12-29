@@ -70,7 +70,7 @@
       }
     ],
       "env": {
-      "MONGO_URI": "mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/?retryWrites=true&w=majority",
+      "MONGO_URI": "mongodb+srv://kvaryan2708:aryan420@cluster1.hdx3pzq.mongodb.net/test?retryWrites=true&w=majority",
       "SECRET_KEY": "abcd"
       
     }
