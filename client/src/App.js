@@ -11,7 +11,7 @@ import Navbar2 from "./Navbar2"
 import Send from "./Send"
 import View from "./View"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-const api_base="http://localhost:3001"
+const api_base="https://messaging-web-jrff3bhw5-kvaryan2708s-projects.vercel.app"
 
 function App() {
   const [value,setValue]=useState(true);

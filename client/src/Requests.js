@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-const api_base="http://localhost:3001"
+const api_base="https://messaging-web-jrff3bhw5-kvaryan2708s-projects.vercel.app"
 function Requests({byValue}) {
     const [msgArr,setMsgArr]=useState([]);
     const [loading,setLoading]=useState(true);
